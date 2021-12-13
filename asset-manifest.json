@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/lean.sorting.algo.visualizer/static/css/main.c1474f9d.chunk.css",
+    "main.js": "/lean.sorting.algo.visualizer/static/js/main.f0e54984.chunk.js",
+    "main.js.map": "/lean.sorting.algo.visualizer/static/js/main.f0e54984.chunk.js.map",
+    "runtime-main.js": "/lean.sorting.algo.visualizer/static/js/runtime-main.4f1cb194.js",
+    "runtime-main.js.map": "/lean.sorting.algo.visualizer/static/js/runtime-main.4f1cb194.js.map",
+    "static/js/2.8b773fdf.chunk.js": "/lean.sorting.algo.visualizer/static/js/2.8b773fdf.chunk.js",
+    "static/js/2.8b773fdf.chunk.js.map": "/lean.sorting.algo.visualizer/static/js/2.8b773fdf.chunk.js.map",
+    "static/js/3.8461486d.chunk.js": "/lean.sorting.algo.visualizer/static/js/3.8461486d.chunk.js",
+    "static/js/3.8461486d.chunk.js.map": "/lean.sorting.algo.visualizer/static/js/3.8461486d.chunk.js.map",
+    "index.html": "/lean.sorting.algo.visualizer/index.html",
+    "static/css/main.c1474f9d.chunk.css.map": "/lean.sorting.algo.visualizer/static/css/main.c1474f9d.chunk.css.map",
+    "static/js/2.8b773fdf.chunk.js.LICENSE.txt": "/lean.sorting.algo.visualizer/static/js/2.8b773fdf.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.4f1cb194.js",
+    "static/js/2.8b773fdf.chunk.js",
+    "static/css/main.c1474f9d.chunk.css",
+    "static/js/main.f0e54984.chunk.js"
+  ]
+}
