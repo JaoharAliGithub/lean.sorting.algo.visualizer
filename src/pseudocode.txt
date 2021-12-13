@@ -1,0 +1,79 @@
+FOR SELECTION SORT:
+
+
+
+  let n = inputArr.length;
+  for (let i = 0; i < n; i++) {
+    // Finding the smallest number in the subarray
+    let min = i;
+    for (let j = i + 1; j < n; j++) {
+      if (inputArr[j] < inputArr[min]) {
+        min = j;
+      }
+    }
+    if (min !== i) {
+      // Swapping the elements
+      let tmp = inputArr[i];
+      inputArr[i] = inputArr[min];
+      inputArr[min] = tmp;
+    }
+  }
+  return inputArr;
+
+n = array length
+
+for i in n
+
+    minimumval = i
+
+    for j = i + 1 in n (basically going through )
+
+      [i][j (j = i + 1)][j.next][j.next+1][j.next + 2]...........
+
+      if array idx j is less than minimumval
+      minimum val = j (the location of the smallest value after i)
+
+    once for loop finishes and finds the minimum after if
+    if the minimum value's index in array is not equal index i 
+
+    temp variable = arrray[i]
+    switch i and minimum (put minimum value at index i )
+    put array value at i into the array minimum value area
+
+
+return the array
+
+
+basically
+
+for all boxes in the array ==> for (let i =0; i< boxesArray.length(); i ++)
+
+    minimum = i ==> in this case for the first iteration of loop, minimum == 0
+
+    for every box after i in the array of boxes ==> for (let j = i+!; j< boxesArray.length(); j ++)
+
+    if box at index j is less than box at min, which is i, which in the first iteration is 0
+
+    min = j
+
+    (this makes it so we find the smallest value in the whole array, and put into the first index. min = j makes it so that the index of the smallest value is also the index of j, so we set it to minimum to refer to later)
+
+    so we find the smallest value after index 0, and if it is smaller than value at index 0, we switch around the minimum value at index j with value at index if
+    so if index i was initially say 10, and index j was equal to like 1, and ti was the smallest, so like
+
+    [10,6,3,6,3,5,4,6,34,6,43,56,3,6,3,1]
+
+    after this first time of the loop
+
+    array is like
+
+
+     [1   ,6,3,6,3,5,4,6,34,6,43,56,3,6,3,    10]
+
+
+      second iteration of loop starts at index 1, which is the second val in the array. 
+
+      smallest value after index one gets put into index one, effectively making it so that the second smallest value goes into the second value in array
+
+      so on and so forth and then we have the entire array sorted.
+
